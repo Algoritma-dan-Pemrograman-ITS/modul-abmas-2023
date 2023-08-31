@@ -7,13 +7,15 @@
 2. Elemen HTML
 3. Jenis-jenis elemen HTML
    - `head`
+   - `title`
+   - `link`
    - `body`
    - `heading`
    - `paragraph`
    - `image`
-   - `link`
-   - ;
-   - 
+   - `a (hyperlink)`
+   - `ordered list`
+   - `unordered list`
 4. Hubungan HTML dengan CSS dan JS
 
 ### 1. Apa itu HTML?
@@ -49,15 +51,19 @@ Elemen HTML terdiri dari beberapa komponen yaitu:
 
 Elemen `head` dalam HTML adalah bagian dari struktur dasar dari sebuah halaman web. Elemen ini berisi `metadata` dan elemen-elemen lain yang berhubungan dengan halaman web. Isi dari elemen ini tidak akan terlihat oleh pengguna, tetapi sangat penting untuk pengaturan dan optimasi halaman web.
 
-**b. `link`**
+**b. `title`**
+
+Elemen `title` dalam HTML merupakan judul dari halaman web. Biasanya akan muncul di tab browser.
+
+**c. `link`**
 
 Elemen `link` dalam HTML berfungsi untuk menghubungkan *resource* luar, biasanya stylesheet, ke dalam dokumen HTML.
 
-**b. `body`**
+**d. `body`**
 
 Elemen `body` dalam HTML berisi semua elemen yang akan terlihat dalam halaman web.
 
-**c. `heading`**
+**e. `heading`**
 
 Elemen `heading` dalam HTML dapat dibayangkan seperti judul dan sub-judul sebuah buku. Dalam HTML, terdapat 6 macam heading mulai dari `<h1>` sampai `<h6>`. Berikut merupakan contoh penggunaan heading:
 ```
@@ -74,7 +80,7 @@ Hasil:
 ![elemen-heading](img/heading.png)
 
 
-**d. `paragraph`**
+**f. `paragraph`**
 
 Elemen ini digunakan untuk teks yang berupa paragraf, dilambangkan dengan tag `<p>`. Contoh penggunaannya adalah sebagai berikut:
 ```
@@ -87,23 +93,58 @@ Hasil:
 
 ![elemen-paragraph](img/paragraph.png)
 
-**e. `image`**
+**g. `image`**
 
-Elemen ini berfungsi untuk memasang gambar kepada halaman web, dilambangkan dengan tag `<img>`. Contoh penggunaannya adalah sebagai berikut:
-
-```
+Elemen ini berfungsi untuk memasang gambar kepada halaman web, dilambangkan dengan tag `<img>`. `src` diisi dengan nama file gambar relatif dengan lokasi file html. Apabila gambarnya berada di folder yang sama dengan html maka penulisannya akan seperti ini:
 
 ```
+<img src="pewdiepie.png">
+```
 
-**f. `a`**
+Sedangkan apabila gambar berada di sebuah folder bernama `img`, maka penulisannya seperti ini:
 
-Elemen ini digunakan untuk memasang `hyperlink` dimana apabila ditekan dapat mengalihkan ke suatu halaman tertentu maupun sebuah website baru. Contoh penggunaannya adalah sebagai berikut:
+```
+<img src="img/pewdiepie.png">
+```
 
-**g. `ordered list`**
+**h. `a`**
 
-**h. `unordered list`**
+Elemen ini digunakan untuk memasang `hyperlink` dimana apabila ditekan dapat mengalihkan ke suatu halaman lain. Misalkan kita memiliki sebuah file html bernama `halo.html`, dengan menggunakan aturan yang sama seperti pada bagian `img`, kita dapat mengakses `halo.html` dari halaman web lain.
 
--- kasih contohnya
+```
+<a href="halo.html">Ini link!</a>
+```
+
+
+**i. `ordered list`**
+
+Elemen ini digunakan untuk membuat sebuah list yang memiliki penomoran. Sebuah ordered list diinisiasikan dengan tag `<ol>` lalu akan diisi list menggunakan tag `<li>`. Contoh penggunaannya adalah sebagai berikut:
+```
+<ol>
+	<li>andi</li>
+	<li>budi</li>
+	<li>rudi</li>
+</ol>
+```
+
+Hasil:
+
+![elemen-ol](img/orderedlist.png)
+
+**j. `unordered list`**
+
+Elemen ini digunakanuntuk membuat sebuah list dengan bullet point. Sebuah unordered list diinisiasikan dengan tag `<ul` lalu akan diisi list menggunakan tag `<li>`. Contoh penggunaannya adalah sebagai berikut:
+```
+<ul>
+	<li>jeruk</li>
+	<li>pisang</li>
+	<li>nanas</li>
+</ul>
+```
+
+Hasil:
+
+![elemen-ul](img/unorderedlist.png)
 
 ### 4. Hubungan HTML dengan CSS dan JS
 Meskipun dinyatakan sebagai bahasa markup yang canggih dan mudah, HTML tidak sepenuhnya bisa membuat website yang profesional dan responsif. Bahasa ini hanya bisa digunakan untuk menambah elemen dan membuat struktur konten.
@@ -113,4 +154,4 @@ Namun di satu sisi, bahasa ini bisa bekerja secara maksimal dengan dua bahasa fr
 - CSS erat kaitannya dengan styling, seperti background, warna, layout, spacing, dan animiasi.
 - JavaScript memungkinkan Anda menambahkan fungsionalitas yang dinamis, seperti slider, pop-up, dan galeri foto.
 
-Jika digambarkan, berikut perbedaan HTML dan CSS dan JavaScript: HTML adalah orang yang tidak mengenakan busana apa pun, kemudian CSS adalah bajunya, kemudian JavaScript adalah aktivitas dan sikap orang tersebut.
+Untuk memberikan gambaran, perbedaan antara HTML, CSS, dan JavaScript dapat diibaratkan seperti ini: HTML adalah seperti seseorang yang belum berpakaian, kemudian CSS adalah pakaian yang dikenakannya, dan JavaScript adalah aktivitas dan sikap orang tersebu
