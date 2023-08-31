@@ -14,8 +14,7 @@ Grid CSS adalah teknik tata letak yang kuat yang memungkinkan Anda mengatur tamp
    - `grid-column` dan `grid-row`
    - `grid-area`
 5. Penggunaan Grid dalam Kasus Sederhana
-6. Responsif dengan Grid
-7. Tips dan Trik
+
 
 ### 1. Pengenalan ke Grid CSS
 
