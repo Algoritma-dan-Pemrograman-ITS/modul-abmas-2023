@@ -3,8 +3,8 @@
 
 ### Daftar Isi
 
-1. Apa itu HTML?
-2. Elemen HTML
+1. [Apa itu HTML?](apa-itu-html?)
+2. [Elemen HTML]
 3. Jenis-jenis elemen HTML
    - `head`
    - `title`
