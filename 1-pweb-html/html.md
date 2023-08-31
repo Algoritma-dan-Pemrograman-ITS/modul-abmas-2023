@@ -50,7 +50,7 @@ Elemen HTML terdiri dari beberapa komponen yaitu:
 ## 3. Jenis-Jenis Elemen HTML
 <a id="jenis-html"></a>
 
-**a. `head`** {#head}
+**a. `head`**
 
 Elemen `head` dalam HTML adalah bagian dari struktur dasar dari sebuah halaman web. Elemen ini berisi `metadata` dan elemen-elemen lain yang berhubungan dengan halaman web. Isi dari elemen ini tidak akan terlihat oleh pengguna, tetapi sangat penting untuk pengaturan dan optimasi halaman web.
 
