@@ -16,8 +16,6 @@ Flexbox (Flexible Box) adalah teknik tata letak dalam CSS yang memungkinkan Anda
    - `align-self`
    - `order`
 5. Penggunaan Flexbox dalam Kasus Sederhana
-6. Responsif dengan Flexbox
-7. Tips dan Trik
 
 ### 1. Pengenalan ke Flexbox
 
