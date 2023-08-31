@@ -3,22 +3,22 @@
 
 ### Daftar Isi
 
-1. [Apa itu HTML?](#apa-itu-html?)
+1. [Apa itu HTML](#apa-itu-html)
 2. [Elemen HTML](#elemen-html)
 3. [Jenis-jenis elemen HTML](#jenis-html)
-   - [head](#head)
-   - [title](#title)
-   - [link](#link)
-   - [body](#body)
-   - [heading](#heading)
-   - [paragraph](#paragraph)
-   - [image](#image)
-   - [a (hyperlink)](#a)
-   - [ordered list](#ordered)
-   - [unordered list](#unordered)
+   - head
+   - title
+   - link
+   - body
+   - heading
+   - paragraph)
+   - image
+   - a (hyperlink)
+   - ordered list
+   - unordered list
 4. [Hubungan HTML dengan CSS dan JS](#hubungan)
 
-### 1. Apa itu HTML? {#apa-itu-html?}
+## 1. Apa itu HTML {#apa-itu-html}
 
 HTML merupakan singkatan dari *Hypertext Markup Language*, yaitu bahasa markup standar untuk membuat dan menyusun halaman dan aplikasi web. HTML digunakan untuk mendefinisikan struktur dan elemen-elemen dalam halaman web, seperti teks, gambar, tautan, tabel, formulir, dan banyak elemen lainnya.
 
@@ -39,13 +39,13 @@ Contoh penulisan HTML sederhana adalah sebagai berikut
 </html>
 ```
 
-### 2. Elemen HTML {#elemen-html}
+## 2. Elemen HTML {#elemen-html}
 
 Elemen HTML terdiri dari beberapa komponen yaitu:
 
 ![elemen-html](img/html-element-diagram.png)
 
-### 3. Jenis-Jenis Elemen HTML{#jenis-html}
+## 3. Jenis-Jenis Elemen HTML{#jenis-html}
 
 **a. `head`** {#head}
 
@@ -146,7 +146,7 @@ Hasil:
 
 ![elemen-ul](img/unorderedlist.png)
 
-### 4. Hubungan HTML dengan CSS dan JS {#hubungan}
+## 4. Hubungan HTML dengan CSS dan JS {#hubungan}
 Meskipun dinyatakan sebagai bahasa markup yang canggih dan mudah, HTML tidak sepenuhnya bisa membuat website yang profesional dan responsif. Bahasa ini hanya bisa digunakan untuk menambah elemen dan membuat struktur konten.
 
 Namun di satu sisi, bahasa ini bisa bekerja secara maksimal dengan dua bahasa frontend: CSS (Cascading Style Sheets) dan JavaScript. Jika digabungkan, kedua bahasa frontend ini bisa meningkatkan pengalaman user dan memberikan fungsi yang lebih canggih.
