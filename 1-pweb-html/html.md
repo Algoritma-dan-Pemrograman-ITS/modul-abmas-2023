@@ -201,6 +201,8 @@ Untuk memberikan gambaran, perbedaan antara HTML, CSS, dan JavaScript dapat diib
   ```
     <p>Nama : Ucup</p>
     <p>Tempat/Tanggal Lahir : Surabaya, 12 Januari 2006</p>
+    <p>Nomor Telepon: 031-8212345678</p>
+    <p>Email: ucupcupcup@gmail.com</p>
   ```
 - Tambahkan list hobi dengan menggunakan `<ul>`
 
