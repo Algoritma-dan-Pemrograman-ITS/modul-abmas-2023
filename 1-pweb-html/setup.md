@@ -1,8 +1,8 @@
 # Setup
 1. [Install sublime text](https://www.sublimetext.com/)
 2. Buka aplikasi sublime text
-3. Klik 'Preferences'
-4. Kilk 'Package Control'
+3. Klik 'Tools'
+4. Kilk 'Install Package Control'
 5. Tunggu 'Package Control' selesai diinstall
 6. Klik lagi 'Package Control' di 'Preferences'
 7. Klik 'Package Control: Install Package'
