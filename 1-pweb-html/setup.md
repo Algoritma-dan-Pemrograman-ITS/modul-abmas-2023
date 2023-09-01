@@ -10,3 +10,8 @@
 9. Klik 'Browser Sync' untuk menginstall
     - Browser Sync memungkinkan kita untuk menghubungkan sublime text ke browser Google Chrome
 10. Selesai
+
+# Cara menjalankan web
+1. Klik 'Browser Sync' pada menu
+2. Pilih file yang ingin dijalankan pada pilihan 'Start File'
+3. Klik 'launch' dan buka google chrome
