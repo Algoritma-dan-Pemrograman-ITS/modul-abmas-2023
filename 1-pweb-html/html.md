@@ -17,6 +17,7 @@
    - ordered list
    - unordered list
 4. [Hubungan HTML dengan CSS dan JS](#hubungan)
+5. [Membuat Web Biodata Diri](#biodata)
 
 ## 1. Apa itu HTML
 <a id="apa-itu-html"></a>
@@ -64,7 +65,7 @@ Elemen `link` dalam HTML berfungsi untuk menghubungkan *resource* luar, biasanya
 
 **d. `body`**
 
-Elemen `body` dalam HTML berisi semua elemen yang akan terlihat dalam halaman web.
+Elemen `body` dalam HTML berisi semua elemen yang akan terlihat dalam halaman web. Apapun yang ingin ditampilkan dalam web harus masuk ke dalam tag `<body>`.
 
 **e. `heading`**
 
@@ -136,7 +137,7 @@ Hasil:
 
 **j. `unordered list`**
 
-Elemen ini digunakanuntuk membuat sebuah list dengan bullet point. Sebuah unordered list diinisiasikan dengan tag `<ul` lalu akan diisi list menggunakan tag `<li>`. Contoh penggunaannya adalah sebagai berikut:
+Elemen ini digunakanuntuk membuat sebuah list dengan bullet point. Sebuah unordered list diinisiasikan dengan tag `<ul>` lalu akan diisi list menggunakan tag `<li>`. Contoh penggunaannya adalah sebagai berikut:
 ```
 <ul>
 	<li>jeruk</li>
@@ -160,3 +161,54 @@ Namun di satu sisi, bahasa ini bisa bekerja secara maksimal dengan dua bahasa fr
 - JavaScript memungkinkan Anda menambahkan fungsionalitas yang dinamis, seperti slider, pop-up, dan galeri foto.
 
 Untuk memberikan gambaran, perbedaan antara HTML, CSS, dan JavaScript dapat diibaratkan seperti ini: HTML adalah seperti seseorang yang belum berpakaian, kemudian CSS adalah pakaian yang dikenakannya, dan JavaScript adalah aktivitas dan sikap orang tersebut.
+
+## 5. Membuat Web Biodata Diri
+<a id="biodata"></a>
+
+- Buat sebuah file html bernama `index.html`
+  
+- Buatlah template html terlebih dahulu
+  
+  ```
+  <!DOCTYPE html>
+  <html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+  </head>
+  <body>
+
+  </body>
+  </html>
+  ```
+- Tambahkan title untuk websitenya di dalam `<head>`
+  
+  ```
+    <title>Biodata diriku</title>
+  ```
+- Tambahkan sebuah heading sebagai judul
+
+  ```
+    <h1>Biodata diri</h1>
+  ``` 
+- Tambahkan file foto diri ke folder yang sama dengan file `index.html`. Misalkan nama fotonya `foto.jpg`. Tambahkan cuplikan dibawah ke dalam `index.html`
+
+  ```
+    <img src="foto.jpg>
+  ```
+- Tambahkan nama dan tempat/tanggal lahir
+  ```
+    <p>Nama : Ucup</p>
+    <p>Tempat/Tanggal Lahir : Surabaya, 12 Januari 2006</p>
+  ```
+- Tambahkan list hobi dengan menggunakan `<ul>`
+
+  ```
+    <p>Hobi :</p>
+    <ul>
+      <li>bermain</li>
+      <li>makan</li>
+      <li>bernyanyi</li>
+    </ul>
+  ```
