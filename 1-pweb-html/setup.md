@@ -8,7 +8,7 @@
 7. Klik 'Package Control: Install Package'
 8. Cari 'Browser Sync'
 9. Klik 'Browser Sync' untuk menginstall
-    - Browser Sync memungkinkan kita untuk menghubungkan sublime text ke browser Google Chrome
+    - Browser Sync memungkinkan kita untuk menghubungkan sublime text ke browser Google Chrome, sehingga perubahan yang kita lakukan pada file langsung terlihat pada browser
 10. Selesai
 
 # Cara menjalankan web
