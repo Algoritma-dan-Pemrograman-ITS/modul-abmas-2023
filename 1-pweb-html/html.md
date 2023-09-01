@@ -1,7 +1,7 @@
-**HTML**
+# HTML
 
 
-### Daftar Isi
+## Daftar Isi
 
 1. [Apa itu HTML](#apa-itu-html)
 2. [Elemen HTML](#elemen-html)
@@ -11,7 +11,7 @@
    - link
    - body
    - heading
-   - paragraph)
+   - paragraph
    - image
    - a (hyperlink)
    - ordered list
@@ -60,7 +60,7 @@ Elemen `title` dalam HTML merupakan judul dari halaman web. Biasanya akan muncul
 
 **c. `link`**
 
-Elemen `link` dalam HTML berfungsi untuk menghubungkan *resource* luar, biasanya stylesheet, ke dalam dokumen HTML.
+Elemen `link` dalam HTML berfungsi untuk menghubungkan *resource* luar, biasanya stylesheet (JS dan CSS), ke dalam dokumen HTML.
 
 **d. `body`**
 
@@ -159,4 +159,4 @@ Namun di satu sisi, bahasa ini bisa bekerja secara maksimal dengan dua bahasa fr
 - CSS berkaitan dengan styling, seperti background, warna, layout, spacing, dan animiasi.
 - JavaScript memungkinkan Anda menambahkan fungsionalitas yang dinamis, seperti slider, pop-up, dan galeri foto.
 
-Untuk memberikan gambaran, perbedaan antara HTML, CSS, dan JavaScript dapat diibaratkan seperti ini: HTML adalah seperti seseorang yang belum berpakaian, kemudian CSS adalah pakaian yang dikenakannya, dan JavaScript adalah aktivitas dan sikap orang tersebu
+Untuk memberikan gambaran, perbedaan antara HTML, CSS, dan JavaScript dapat diibaratkan seperti ini: HTML adalah seperti seseorang yang belum berpakaian, kemudian CSS adalah pakaian yang dikenakannya, dan JavaScript adalah aktivitas dan sikap orang tersebut.
