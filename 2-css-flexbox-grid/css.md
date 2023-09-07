@@ -5,35 +5,27 @@
 - [Pengenalan CSS](#pengenalan-css)
     + [Apa itu CSS?](#apa-itu-css)
     + [Mengapa CSS penting?](#mengapa-css-penting)
+    + [Contoh Website Biodata](#contoh-website-biodata)
 - [Materi Teknis CSS](#materi-teknis-css)
     + [Syntax](#syntax)
     + [Comments](#comments)
     + [Selectors](#selectors)
     + [Linking ke HTML](#linking-ke-html)
     + [Colors](#colors)
-    + [Backgrounds](#backgrounds) <!--- Tambahkan section gradient ke sini --->
-    + [Borders](#borders) <!--- Tambahkan section rounded corners ke sini --->
+    + [Backgrounds](#backgrounds)
+    + [Borders](#borders)
     + [Margins](#margins)
     + [Padding](#padding)
     + [Height/Width](#heightwidth)
     + [Box Model](#box-model)
-    + [Outline](#outline)
     + [Text](#text)
     + [Fonts](#fonts)
     + [Links](#links)
     + [Lists](#lists)
     + [Tables](#tables)
     + [Display](#display)
-    + [Max-width](#max-width)
     + [Position](#position)
-    + [Z-index](#z-index)
-    + [Overflow](#overflow)
     + [Float](#float)
-    + [Inline-block](#inline-block)
-    + [Align](#align)
-    + [Opacity](#opacity)
-    + [Navbar](#navbar)
-    + [Specificity](#specificity)
 
 ## Pengenalan CSS
 
@@ -67,6 +59,18 @@ Berikut adalah perbandingan antara website tanpa CSS dan website dengan CSS:
 | Tampilan website dengan menggunakan CSS |
 
 Dapat dilihat bahwa laman website kedua memiliki warna latar belakang, warna teks, dan peletakan teks yang dapat diatur oleh programmer.
+
+### Contoh Website Biodata
+
+Berikut adalah contoh website biodata tanpa CSS:
+
+> https://codepen.io/richiesuper/full/NWebXWR
+
+Berikut adalah website biodata tadi dengan menggunakan CSS:
+
+> https://codepen.io/richiesuper/full/ZEVBPVK
+
+Bagaimana, keduanya terlihat jauh berbeda bukan?
 
 ## Materi Teknis CSS
 
@@ -353,7 +357,7 @@ Value `inline-block` memiliki arti bahwa elemen akan bersifat seperti elemen `in
 
 ### Position
 
-CSS memungkinkan programmer untuk mendefinisikan posisi suatu elemen dalam laman website. Jenis-jenis metode pemosisian dilaksanakan melalui property `position`, di mana ia menerima value `static`, `relative`, `fixed`,`absolute`, dan `sticky`.
+CSS memungkinkan programmer untuk mendefinisikan posisi suatu elemen dalam laman website. Jenis-jenis metode pemosisian dilaksanakan melalui property `position`, di mana ia menerima value `static`, `relative`, `fixed`, `absolute`, dan `sticky`.
 
 Value `static` adalah default value untuk property `position`, di mana suatu elemen akan tetap pada tempatnya sesuai layout laman.
 Value `relative` akan membuka penggunaan property `left`, `right`, `top`, dan `bottom`, di mana posisi akan diubah relatif dengan posisi elemen saat itu. Value `fixed` membuat elemen tidak berubah posisi sama sekali, sehingga terlihat terpaku di posisinya dalam viewport.
