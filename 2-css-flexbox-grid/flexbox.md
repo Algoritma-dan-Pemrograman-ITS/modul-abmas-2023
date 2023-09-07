@@ -140,3 +140,4 @@ Misalkan Anda ingin membuat tampilan header dengan logo di kiri dan menu di kana
   flex: 2;
 }
 ```
+https://codepen.io/Hq_lco/pen/wvRgvZB
