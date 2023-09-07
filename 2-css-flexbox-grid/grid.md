@@ -122,4 +122,6 @@ Misalkan Anda ingin membuat tampilan dengan header, sidebar, dan konten utama:
 
 .main {
   grid-column: 1;
-} 
+}
+
+https://codepen.io/Hq_lco/pen/XWopbML
