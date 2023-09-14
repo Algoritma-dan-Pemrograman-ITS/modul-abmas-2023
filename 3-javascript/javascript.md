@@ -4,7 +4,21 @@
 
 JavaScript adalah sebuah bahasa pemrograman yang pada umumnya dalam pemrograman web digunakan untuk menambahkan interaksi antara halaman web dengan pengguna.
 
-TODO: nyari contoh penggunaan js
+### Contoh Pemakaian
+
+- #### CodePen
+
+  - <https://codepen.io/tofjadesign/pen/xxmdGEM>
+  - <https://codepen.io/HowToSolutions/pen/ozbWKN>
+  - <https://codepen.io/slc/pen/xgQPjJ>
+
+- #### YouTube
+
+  - <https://youtu.be/ec8vSKJuZTk?si=eHi70-wnZf33NkEM>
+  - <https://youtu.be/GFO_txvwK_c?si=iisDJbWhdxEm1QDl>
+  - <https://youtu.be/EOemfVmD-1M?si=5x5BRK70GlYOO96I>
+  - <https://youtu.be/9EZ0TpuHYvI?si=SWXWNmTJEqK3ztNQ>
+  - <https://youtube.com/shorts/ii98D1OtWfg?si=sFMT5Jep4QxvVI7p>
 
 ## Percabangan
 
@@ -82,7 +96,23 @@ Potongan kode tersebut adalah pernyataan untuk mengecek kondisi variabel **`a`**
 
 ### Pernyataan Kondisi
 
-// TODO: tabel conditional statement
+|Operator|Description|Comparing|Returns|
+|--------|-----------|---------|-------|
+|==|equal to|x == 8|false|
+|||x == 5|true|
+|||x == "5"|true|
+|===|equal value and equal type|x === 5|true|
+|||x === "5"|false|
+|!=|not equal|x != 8|true|
+|!==|not equal value or not equal type|x !== 5|false|
+|||x !== "5"|true|
+|||x !== 8|true|
+|>|greater than|x > 8|false|
+|<|less than|x < 8|true|
+|>=|greater than or equal to|x >= 8|false|
+|<=|less than or equal to|x <= 8|true
+
+//TODO: translate
 
 ## Array dan Perulangan
 
@@ -117,3 +147,11 @@ arr.forEach((item, index) => {
 ```
 
 ## DOM Manipulation
+
+### innerHTML
+
+### getElementById
+
+### getElementsByClassName
+
+### getElementsByTagName
