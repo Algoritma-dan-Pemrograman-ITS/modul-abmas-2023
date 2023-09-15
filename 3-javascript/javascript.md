@@ -112,8 +112,6 @@ Potongan kode tersebut adalah pernyataan untuk mengecek kondisi variabel **`a`**
 |>=|greater than or equal to|x >= 8|false|
 |<=|less than or equal to|x <= 8|true
 
-//TODO: translate
-
 ## Array dan Perulangan
 
 Array (secara harfiah adalah himpunan) adalah sebuah tipe variabel yang dapat menyimpan beberapa nilai dalam satu nama.
@@ -146,12 +144,109 @@ arr.forEach((item, index) => {
 })
 ```
 
-## DOM Manipulation
+## Manipulasi DOM
 
-### innerHTML
+DOM (*Document Obejct Model*) adalah standardisasi dokumen seperti HTML, CSS, sehingga memungkinkan dokumen-dokumen tersebut bekerja semestinya tanpa dipengaruhi hal lain seperti komputer yang digunakan. JavaScript menawarkan manipulasi pada dokumen seperti HTML dan CSS.
 
 ### getElementById
 
+getElementById adalah sebuah fungsi dari JavaScript untuk mendapat sebuah elemen dari HTML berdasarkan id.
+
+|![image](https://github.com/Algoritma-dan-Pemrograman-ITS/modul-abmas-2023/assets/86661387/039c1d57-8872-4748-8321-44206b75a6d9)|![image](https://github.com/Algoritma-dan-Pemrograman-ITS/modul-abmas-2023/assets/86661387/aca079ec-91bf-4e73-bf56-62675520b072)|
+|-|-|
+
+Pada contoh diatas, teks "The Document Object" berwarna merah karena penggunaan fungsi getElementById.
+
+Kode:
+
+```html
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 id="demo">The Document Object</h1>
+<h2>The getElementById() Method</h2>
+
+<script>
+const myElement = document.getElementById("demo");
+myElement.style.color = "red";
+</script>
+
+</body>
+</html>
+```
+
 ### getElementsByClassName
 
+Mirip seperti getElementById, getElementsByClassName mengambil **semua elemen** dengan class yang dimaksud, sehingga yang didapat adalah **array yang berisi beberapa elemen** ketimbang satu elemen saja.
+
+|![image](https://github.com/Algoritma-dan-Pemrograman-ITS/modul-abmas-2023/assets/86661387/fdc50d54-c897-470c-9374-82622bd0b05d)|![image](https://github.com/Algoritma-dan-Pemrograman-ITS/modul-abmas-2023/assets/86661387/710a41c1-4150-49f1-8005-092a7aeca48f)|
+|-|-|
+
+Contoh diatas hampir sama dengan contoh sebelumnya.
+
+Kode:
+
+```html
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>The Document Object</h1>
+<h2>The getElementsByClassName() Method</h2>
+
+<p>Change the text of the first element with class="example":</p>
+
+<div class="example">Element1</div>
+<div class="example">Element2</div>
+
+<script>
+const collection = document.getElementsByClassName("example");
+collection[0].innerHTML = "Hello World!";
+</script>
+
+</body>
+</html>
+```
+
 ### getElementsByTagName
+
+Selain dengan id dan class, kita juga dapat mengambil elemen menggunakan tag pada HTML seperti body, p, dan sebagainya dengan getElementsByTagName.
+
+|![image](https://github.com/Algoritma-dan-Pemrograman-ITS/modul-abmas-2023/assets/86661387/cbbedf31-68b9-436d-9bc8-4e1298823e7d)|![image](https://github.com/Algoritma-dan-Pemrograman-ITS/modul-abmas-2023/assets/86661387/be86496e-da07-4e69-87b6-e5e8d3f7f5a8)|
+|-|-|
+
+Kode:
+
+```html
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>The Document Object</h1>
+<h2>The getElementsByTagName() Method</h2>
+
+<p>An unordered list:</p>
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+
+<p>The innerHTML of the second li element is:</p>
+<p id="demo"></p>
+
+<script>
+const collection = document.getElementsByTagName("li");
+document.getElementById("demo").innerHTML = collection[1].innerHTML;
+</script>
+
+</body>
+</html>
+```
+
+### innerHTML
+
+Terakhir, innerHTML adalah sebuah properti pada setiap elemen yang didapat yang memudahkan kita untuk mengganti isi dari elemen yang kita dapat.
+
+![image](https://github.com/Algoritma-dan-Pemrograman-ITS/modul-abmas-2023/assets/86661387/2df79f70-6256-482c-adec-520105d7b34c)
