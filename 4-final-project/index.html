@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+	<title>Websiteku</title>
+	<link rel="stylesheet" href="style.css">
+	<!-- Swiper CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/swiper-bundle.min.css">
+</head>
+<body>
+	<nav class="navbar">
+        <ul>
+            <li class="nav-text">
+                <a href="#" class="active">Home</a>
+                <a href="#tentang">Tentang Saya</a>
+                <a href="#hobi">Hobi</a>
+				<a href="#games">Games</a>
+                <a href="#kontak">Kontak</a>
+            </li>
+        </ul>
+    </nav>
+	<header class="banner">
+		<!-- masukkan foto diri pada bagian src di img-->
+        <img src="https://imgs.search.brave.com/di7zrrRfoBxX0jMICcmMJaM2TPGRmZv51H8AjphTJQY/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pY29u/LWljb25zLmNvbS9p/bWFnZXMvcHJvZmls/ZV9pbWFnZV9kdW1t/eS5wbmc" alt="profilepic" class="profilepic">
+        <h2 class="kataPengantar">Halo semuanya! Nama saya</h2>
+        <h1 class="kataPengantar" id="namaUtama"></h1>
+
+		<script>
+		var i = 0;
+		// masukkan nama pada variable "nama" di bawah
+		var nama = 'Nama Lengkap';
+		var speed = 100;
+
+		function typeWriter() {
+		if (i < nama.length) {
+			document.getElementById("namaUtama").innerHTML += nama.charAt(i);
+			i++;
+			setTimeout(typeWriter, speed);
+		}
+		}
+		typeWriter();
+		</script>
+    </header>
+	<article>
+		<section id="tentang">
+            <h1 class="judul">Tentang Saya</h1>
+            <p class="isi">
+				<!-- masukkan nama, umur, hobi, dan cita-cita pada field dengan kurung siku [] di bawah-->
+                Saya [NAMA]. Saya berumur [UMUR]. Saya bersekolah di SMP Al-Hikmah Surabaya. Saya suka [HOBI]. Saya bercita-cita ingin menjadi seorang [CITA-CITA].
+            </p>
+        </section>
+		<section id="biodata">
+			<h1 class="judul">Biodata</h1>
+			<div class="bio">
+				<div class="data">
+					<h2>Nama Lengkap</h2>
+					<h2>Umur</h2>
+					<h2>Kelas</h2>
+					<h2>E-mail</h2>
+				</div>
+				<div class="dataBio">
+					<!-- masukkan nama, umur, kelas, dan email pada field dengan kurung siku [] di bawah-->
+					<h2>[Nama Lengkap]</h2>
+					<h2>[Umur]</h2>
+					<h2>[Kelas]</h2>
+					<h2>[E-mail]</h2>
+				</div>
+			</div>
+        </section>
+		<section id="hobi">
+			<h1 class="judul">Hobi</h1>
+			<div class="hobiku">
+				<!-- masukkan gambar hobi di sini dengan mengcopy div di bawah, ganti src dan h2 untuk nama hobi -->
+				<div>
+					<img src="https://cdn-icons-png.flaticon.com/512/566/566944.png" alt="">
+					<h2>Belajar</h2>
+				</div>
+				<div>
+					<img src="https://cdn-icons-png.flaticon.com/512/141/141888.png" alt="">
+					<h2>Makan</h2>
+				</div>
+				<div>
+					<img src="https://cdn-icons-png.flaticon.com/512/268/268998.png" alt="">
+					<h2>Coding</h2>
+				</div>
+			</div>
+		</section>
+		<section id="games">
+			<h1 class="judul">Games Favoritku</h1>
+			<div class="gamesku">
+				<div class="slide-container swiper">
+					<div class="slide-content">
+						<div class="card-wrapper swiper-wrapper">
+							<!-- tambahkan game di sini dengan mengcopy div card swiper-slide di bawah, ganti src untuk link gambar game, ubah name dan description untuk game yang dimasukkan -->
+							<div class="card swiper-slide">
+								<div class="image-content">
+									<span class="overlay"></span>
+		
+									<div class="card-image">
+									   <img src="https://thumb.viva.co.id/media/frontend/thumbs3/2020/07/07/5f03d7aa9081d-bermain-mobile-legends-bersama-anak_1265_711.jpg" alt="" class="card-img">
+									</div>
+								</div>
+		
+								<div class="card-content">
+									<h2 class="name">Mobile Legends</h2>
+									<p class="description">Mobile Legends: Bang Bang is a mobile multiplayer online battle arena (MOBA) game developed and published by Moonton, a subsidiary of ByteDance. Released in 2016, the game grew in popularity.</p>
+		
+									<button class="button">View More</button>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<div class="image-content">
+									<span class="overlay"></span>
+		
+									<div class="card-image">
+										   <img src="https://imgs.search.brave.com/7sxvrCGQKAPqAoicl3A62badCxi55TghrusebcH8zqo/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvZmVhdHVy/ZWQvZnJlZS1maXJl/LWdpMGpwb3BkcTRi/MHE1YWouanBn" alt="" class="card-img">
+									</div>
+								</div>
+		
+								<div class="card-content">
+									<h2 class="name">Free Fire</h2>
+									<p class="description">Free Fire MAX is designed exclusively to deliver premium gameplay experience in a Battle Royale. Enjoy a variety of exciting game modes with all Free Fire players via exclusive Firelink technology.</p>
+		
+									<button class="button">View More</button>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<div class="image-content">
+									<span class="overlay"></span>
+		
+									<div class="card-image">
+										 <img src="https://imgs.search.brave.com/NSAYjy-yHX1Yo2-_w3dmbkT7eCTSbsb9W68WAFa2RuU/rs:fit:860:0:0/g:ce/aHR0cHM6Ly90NC5y/YnhjZG4uY29tLzE5/Y2JmOWNmZWZjYmIz/NjYyMjRhYjQyZmRi/Yjg5NmYx" alt="" class="card-img">
+									</div>
+								</div>
+		
+								<div class="card-content">
+									<h2 class="name">Roblox</h2>
+									<p class="description">Roblox (/ˈroʊblɒks/) is an online game platform and game creation system developed by Roblox Corporation that allows users to program games and play games created by other users.</p>
+		
+									<button class="button">View More</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-button-next swiper-navBtn"></div>
+					<div class="swiper-button-prev swiper-navBtn"></div>
+					<div class="swiper-pagination"></div>
+				</div>
+			</div>
+		</section>
+		<section id="kontak">
+			<h1 class="judul">Kirim Pesan Pada Saya!</h1>
+            <form action="#" class="formKontak">
+				<div>
+					<div class="my-2">
+						<h4>Nama:</h4>
+						<input type="text" placeholder="Nama . . ." class="fieldInput">
+					</div>
+					<div class="my-2">
+						<h4>Email:</h4>
+						<input type="email" placeholder="Email . . ." class="fieldInput">
+					</div>
+					<div class="my-2">
+						<h4>Subjek:</h4>
+						<input type="text" placeholder="Subjek email . . ." class="fieldInput">
+					</div>
+					<div class="my-2">
+						<h4>Pesan:</h4>
+						<textarea type="textarea" placeholder="Pesan . . ." cols="53" rows="8" class="fieldInput"></textarea>
+					</div>
+				</div>
+                <input type="submit" value="Send" class="buttonKirim">
+            </form>
+		</section>
+	</article>
+
+	<footer class="px-8 py-8">
+        <h4 class="footer">Kontak saya:</h4>
+        <div class="kontak">
+			<!-- masukkan gambar sosial media yang diinginkan dengan megcopy 1 line di bawah, ganti src dengan logo sosial media dan href dengan link profile sosial media kalian-->
+            <a href="https://www.discord.com/"><img src="https://images-eds-ssl.xboxlive.com/image?url=Q_rwcVSTCIytJ0KOzcjWTYl.n38D8jlKWXJx7NRJmQKBAEDCgtTAQ0JS02UoaiwRCHTTX1RAopljdoYpOaNfVf5nBNvbwGfyR5n4DAs0DsOwxSO9puiT_GgKqinHT8HsW8VYeiiuU1IG3jY69EhnsQ--&format=source" class="icon" alt="discord"></a>
+			<a href="https://www.instagram.com/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png" class="icon" alt="instagram"></a>
+		</div>
+    </footer>
+</body>
+<script src="//cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/swiper-bundle.min.js"></script>
+
+<script src="script.js"></script>
+<script src="//cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/script.js"></script>
+</html>
